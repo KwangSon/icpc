@@ -3,7 +3,7 @@
 ## Keep in mind
 0. 급하게 하면 '절대' 안된다. (시간을 더 써서라도 침착해야한다.)
 1. 구현보다는 생각으로 먼저 정리하자
-2. clean code (STL, auto, test)
+2. clean code (STL, auto, reference)
 3. test
 
 ## How to solve
