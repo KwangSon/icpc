@@ -9,4 +9,11 @@
 ## How to solve
 0. brute-force로 안되는 것은 어차피 잘 모르는 것이다.
 1. 비슷한 유형을 대입해본다.
-2. 중복 제거, 
+2. 중복 제거.
+
+## types
+1. Brute-force, greedy
+2. Sub-problem(D&Q, dynamic, combination)
+3. math, bit-mask
+4. string
+5. graph
