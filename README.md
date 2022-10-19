@@ -17,3 +17,40 @@
 3. math, bit-mask
 4. string
 5. graph
+
+# cheet sheet
+
+## vector
+### Initialize
+```
+vector<int> vect(n); // just size
+vector<int> vect(n, 10); // size with value
+vector<int> vect{ 10, 20, 30 }; // specific value
+vector<int> vect = { 10, 20, 30 }; // specific value 2
+```
+
+## unordered_map
+### Initialize
+```
+#include <unordered_map>
+
+unordered_map<Key, value> umap = {{K,V}, {K,V} ...};
+```
+### Usage
+```
+umap[K] = V;
+cout << umap[K] << endl;
+// If umap[K] value not exist. just return basic value (e.g. int -> 0, string -> null)
+// use find or contains
+if(umap.contains(x))
+
+auto search = example.find(x);
+if (search != example.end()) { // found
+```
+## sort
+```
+sort(vec.begin(), vec.end());
+
+bool compare(int i, int j) { return i > j; }
+sort(vec.begin(), vec.end(), compare);
+```
