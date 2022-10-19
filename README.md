@@ -29,6 +29,30 @@ vector<int> vect{ 10, 20, 30 }; // specific value
 vector<int> vect = { 10, 20, 30 }; // specific value 2
 ```
 
+## queue
+```
+#include <queue>
+queue<int> q;
+q.push() // think it is push_back, q.pop() // delete from front, q.front(), q.back()
+```
+
+## priority_queue
+```
+#include <queue>
+priority_queue<int> pq;
+pq.push(), pq.pop(), pq.top()
+```
+### cmp
+```
+struct Student {
+    int id;
+    int math, eng;
+    bool operator<(const Student s) const {
+        return this->id > s.id;
+    }
+};
+```
+
 ## unordered_map
 ### Initialize
 ```
@@ -54,3 +78,5 @@ sort(vec.begin(), vec.end());
 bool compare(int i, int j) { return i > j; }
 sort(vec.begin(), vec.end(), compare);
 ```
+
+## priority_queue
