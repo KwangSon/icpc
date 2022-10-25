@@ -80,4 +80,4 @@ bool compare(int i, int j) { return i > j; }
 sort(vec.begin(), vec.end(), compare);
 ```
 
-## priority_queue
+## binary seaerch
