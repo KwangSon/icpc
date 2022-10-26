@@ -81,3 +81,10 @@ sort(vec.begin(), vec.end(), compare);
 ```
 
 ## binary seaerch
+```
+// must sorted before.
+lower_bound(arr, arr + 6, 6)
+
+lower_bound // return SAME or greater
+upper_bound // return greater
+```
