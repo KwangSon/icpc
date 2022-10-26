@@ -88,3 +88,11 @@ lower_bound(arr, arr + 6, 6)
 lower_bound // return SAME or greater
 upper_bound // return greater
 ```
+
+## graph path
+### Dijkstra Algorithm
+```
+O((V+E)lgV)
+dist[V] ..
+use priority_queue to get shortest dist[V].
+```
